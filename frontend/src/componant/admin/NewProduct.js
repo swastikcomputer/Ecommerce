@@ -30,9 +30,9 @@ const NewProduct = () => {
     const categories = [
       "Laptop",
       "Footwear",
-      "Bottom",
-      "Tops",
-      "Attire",
+      "clothes",
+      "watches",
+      "fridge",
       "Camera",
       "SmartPhones",
     ];

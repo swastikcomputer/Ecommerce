@@ -18,13 +18,13 @@ const Products = () => {
     const [category, setCategory] = useState("");
     const [ratings, setRatings] = useState(0);
     const categories = [
-        "Laptop",
-        "Footwear",
-        "Bottom",
-        "Tops",
-        "Attire",
-        "Camera",
-        "SmartPhones",
+      "Laptop",
+      "Footwear",
+      "clothes",
+      "watches",
+      "fridge",
+      "Camera",
+      "SmartPhones",
       ];
     const dispatch=useDispatch();
    const [currentPage, setCurrentPage] = useState(1);
