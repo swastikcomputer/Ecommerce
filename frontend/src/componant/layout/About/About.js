@@ -1,52 +1,17 @@
 import React from "react";
 import "./About.css";
-import { Button, Typography, Avatar } from "@mui/material";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import InstagramIcon from "@mui/icons-material/Instagram";
+
 
 const About = () => {
-    const visitInstagram = () => {
-        window.location = "http://www.google.com";
-      };
-    return (
-        <div className="aboutSection">
-        <div></div>
-        <div className="aboutSectionGradient"></div>
-        <div className="aboutSectionContainer">
-          <Typography component="h1">About Us</Typography>
-  
-          <div>
-            <div>
-              <Avatar
-                style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-                src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-business-logo-design-png-image_915991.jpg"
-                alt="Founder"
-              />
-              <Typography>Swastik Computer Education</Typography>
-              <Button onClick={visitInstagram} color="primary">
-                Visit Instagram
-              </Button>
-              <span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus repellendus vel dicta magni ipsa quod at tempora.
-              </span>
-            </div>
-            <div className="aboutSectionContainer2">
-              <Typography component="h2">Our Brands</Typography>
-              <a
-                href="jhjhj"
-                target="blank"
-              >
-                <YouTubeIcon className="youtubeSvgIcon" />
-              </a>
-  
-              <a href="ggg" target="blank">
-                <InstagramIcon className="instagramSvgIcon" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    )
+    
+  return (
+    <div className="Container">
+        <h1>About section</h1>
+        <p>I Zakir ali ,Bachelor's in Technology in (Electrical and Electronics Engineering ) and Full Stack Developer in NODE.js and React.js . I develope this  project using the help of my Mentor. </p>
+
+       <p>This project is based on <b>E-Commerce Website .</b></p>
+    </div>
+)
 }
 
 export default About

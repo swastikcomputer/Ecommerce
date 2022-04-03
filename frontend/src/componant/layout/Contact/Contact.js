@@ -1,13 +1,17 @@
 import React from 'react'
 import "./Contact.css";
-import { Button } from "@mui/material";
+
 const Contact = () => {
     return (
-        <div className="contactContainer">
-        <a className="mailBtn" href="Swastikcomputerjsr@gmail.com">
-          <Button>Contact: swastikcomputerjsr@gmail.com</Button>
-        </a>
-      </div>
+      <div className="Container">
+      <h1>Contact section</h1><br></br>
+      
+      <h2>TELCO JAMSHEDPUR</h2>
+      
+      <h2>Mobile No:-8092703502</h2>
+      <h2>Email:- Zakirthums@gmail.com</h2>
+  </div>
+
     )
 }
 
